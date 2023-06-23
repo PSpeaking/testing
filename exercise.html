@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interactive Word Exercise</title>
+</head>
+<body>
+  <div class="exercise">
+    <h2>Exercise: Guess the Animal</h2>
+    <p>Guess the animal based on the hints provided.</p>
+
+    <div class="hint">
+      <p>1. This animal is the king of the jungle.</p>
+      <input type="text" id="answer1" placeholder="Enter your answer">
+    </div>
+
+    <div class="hint">
+      <p>2. This animal has a long neck and lives in the savanna.</p>
+      <input type="text" id="answer2" placeholder="Enter your answer">
+    </div>
+
+    <div class="hint">
+      <p>3. This animal can fly and has beautiful feathers.</p>
+      <input type="text" id="answer3" placeholder="Enter your answer">
+    </div>
+
+    <button onclick="checkAnswers()">Check</button>
+    <p id="feedback"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
